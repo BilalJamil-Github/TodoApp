@@ -1,0 +1,180 @@
+/* General body styling */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f9;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Main container styling */
+#mydiv {
+  width: 100%;
+  max-width: 500px;
+  background: #ffffff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Title styling */
+h1 {
+  font-size: 28px;
+  text-align: center;
+  color: #4a4a4a;
+  margin-bottom: 20px;
+}
+
+/* Input field styling */
+.input, .searchbar {
+  width: 100%;
+  max-width: 420px;
+  padding: 15px;
+  border: 2px solid #ececec;
+  border-radius: 8px;
+  margin-bottom: 15px;
+  font-size: 18px;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+.input:focus, .searchbar:focus {
+  border-color: #6c63ff;
+}
+
+/* Button styling */
+.btn {
+  padding: 15px 20px;
+  background-color: #6c63ff;
+  color: #ffffff;
+  border: none;
+  border-radius: 8px;
+  font-size: 18px;
+  cursor: pointer;
+  margin-left: 10px;
+  top: -8px;
+  position: relative;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #5753c9;
+}
+
+/* No content text styling */
+.nothingtext {
+  text-align: center;
+  font-size: 18px;
+  color: #b0b0b0;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+/* List item styling */
+.list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 420px;
+  padding: 15px;
+  margin-bottom: 10px;
+  background-color: #f9f9f9;
+  border: 1px solid #ececec;
+  border-radius: 8px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  position: relative;
+}
+
+/* Task text styling */
+.values {
+  font-size: 18px;
+  color: #4a4a4a;
+  position: relative;
+}
+
+/* Line for completed task */
+.line {
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  background-color: #6c63ff;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  transition: all 0.3s ease;
+}
+
+/* Checkbox and remove button container */
+.container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+/* Checkbox styling */
+#checkbox {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  accent-color: #6c63ff;
+}
+
+/* Remove button styling */
+#button {
+  background: #ff6b6b;
+  color: #ffffff;
+  border: none;
+  border-radius: 50%;
+  padding: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#button:hover {
+  background-color: #d95151;
+}
+
+/* Search bar and icon container */
+.search-container {
+  width: 100%;
+  max-width: 420px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+/* Search icon styling */
+.search-icon {
+  font-size: 35px;
+  cursor: pointer;
+  transition: color 0.3s ease;
+  top: -8px;
+  position: relative;
+}
+
+.search-icon:hover {
+  color: #6c63ff;
+}
+
+ul {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+/* Highlighted search text */
+.highlight {
+  background-color: yellow;
+  font-weight: bold;
+}
+
+
